@@ -1,0 +1,17 @@
+$manoSpalva: green;
+
+h1 {
+    color: $manoSpalva;
+
+    span {
+        color: purple;
+        font-weight: bold;
+        font-size: 80px;
+        @include overlay;
+    }
+}
+
+.block {
+    display: flex;
+    animation: bounce 1s linear;
+}
