@@ -6,3 +6,12 @@ p {
     font-size: 30px;
     font-style: italic;
 }
+
+@media (max-width: 800px) {
+    body {
+        background: red;
+    }
+    h1 {
+        color: #fff;
+    }
+}
